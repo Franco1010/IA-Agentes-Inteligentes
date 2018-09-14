@@ -38,11 +38,11 @@ Esta actividad esta basada en una matriz de nxn que se declara al inicio de la e
 
 La matriz puede contener alguno de los siguientes valores:
 
-1. -2: Tesoro al que debe llegar el agente ( Destino )
-1. -1: Agente inteligente o Avatar ( Origen )
-1. 0:  Camino de libre circulación del agente
-1. 1 - 4: Banderas colocadas a casillas no deseadas ( Disminuye la transparencia del obstáculo )
-1. \> 5: Obstáculo, el agente no es capaz de tomar la posición de la casilla donde se encuentre algún obstáculo 
+-  -2: Tesoro al que debe llegar el agente ( Destino )
+-  -1: Agente inteligente o Avatar ( Origen )
+-  0:  Camino de libre circulación del agente
+-  1 - 4: Banderas colocadas a casillas no deseadas ( Disminuye la transparencia del obstáculo )
+-  \> 5: Obstáculo, el agente no es capaz de tomar la posición de la casilla donde se encuentre algún obstáculo 
 
 De esta manera, dentro de las funciones donde se toman decisiones sobre el recorrido, únicamente es necesario alterar el valor de la matriz y la función update se encargara de redibujar todo en base a las reglas anteriores
 
