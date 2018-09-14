@@ -71,14 +71,14 @@ def setup():
     size(820,600)
     global play,puttingAvatar,puttingTreasure,bresenList, lastBox, doBresen, played
     global grassImg,avatarImg,treasureImg,tree1,tree2,tree3,tree4,tree5
-    avatarImg = loadImage("avatar.png")
-    grassImg = loadImage("grass3.JPG")
-    treasureImg = loadImage("treasure.PNG")
-    tree1 = loadImage("tree1.png")
-    tree2 = loadImage("tree2.png")
-    tree3 = loadImage("tree3.png")
-    tree4 = loadImage("tree4.png")
-    tree5 = loadImage("tree5.png")
+    avatarImg = loadImage("assets/avatar.png")
+    grassImg = loadImage("assets/grass3.JPG")
+    treasureImg = loadImage("assets/treasure.PNG")
+    tree1 = loadImage("assets/tree1.png")
+    tree2 = loadImage("assets/tree2.png")
+    tree3 = loadImage("assets/tree3.png")
+    tree4 = loadImage("assets/tree4.png")
+    tree5 = loadImage("assets/tree5.png")
     play=False
     puttingAvatar = False
     puttingTreasure = False
