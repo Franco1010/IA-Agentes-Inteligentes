@@ -8,12 +8,12 @@ La cantidad de obstáculos debe de ser variable, pudiendo poner desde 0% hasta u
 
 ## Desarrollo e implementación
 
+<img width="502" alt="captura de pantalla 2018-09-14 a la s 17 13 19" src="https://user-images.githubusercontent.com/28017456/45577444-99f2a080-b841-11e8-8d05-9aafa4410180.png">
+
 La actividad fue realizada en Python con Processing
 Que básicamente es un lienzo en el que tiene que dibujar absolutamente todo, incluso botones.
 Para esta actividad se agrego la posibilidad de agregar entre 0 - 100 % de obstáculos disponibles en el campo, menos 2 que son el origen y el destino.
 Se hace uso del algoritmo de bresenham para calcular las próximas posibles posiciones del agente, recalculandose y agregando banderas cada vez que se interfiere con la ruta.
-
-<img width="502" alt="captura de pantalla 2018-09-14 a la s 17 13 19" src="https://user-images.githubusercontent.com/28017456/45577444-99f2a080-b841-11e8-8d05-9aafa4410180.png">
 
 
 ## Diagrama de Funciones
