@@ -1,4 +1,4 @@
-# IA---Agentes-Inteligentes
+# IA Agentes-Inteligentes
 ## Introducción
 
 Implementación de un agente inteligente en un campo con obstáculos (matriz de nxn casillas), con un origen y un destino, teniendo la capacidad de desplazarse por si solo tomando decisiones en cada momento durante el recorrido, el agente inteligente deberá desplazarse haciendo uso del algoritmo de bresenham para el trazado de una linea.
@@ -18,6 +18,7 @@ Se hace uso del algoritmo de bresenham para calcular las próximas posibles posi
 
 ## Diagrama de Funciones
 
+<img width="531" alt="captura de pantalla 2018-09-14 a la s 17 13 09" src="https://user-images.githubusercontent.com/28017456/45577479-bf7faa00-b841-11e8-9b4b-0ed0db0474f3.png">
 
 
 La inicialización formal de todos las variables se realiza dentro del setup
@@ -37,11 +38,11 @@ Esta actividad esta basada en una matriz de nxn que se declara al inicio de la e
 
 La matriz puede contener alguno de los siguientes valores:
 
--2: Tesoro al que debe llegar el agente ( Destino )
--1: Agente inteligente o Avatar ( Origen )
-0:  Camino de libre circulación del agente
-1 - 4: Banderas colocadas a casillas no deseadas ( Disminuye la transparencia del obstáculo )
-> 5: Obstáculo, el agente no es capaz de tomar la posición de la casilla donde se encuentre algún obstáculo 
+1. -2: Tesoro al que debe llegar el agente ( Destino )
+1. -1: Agente inteligente o Avatar ( Origen )
+1. 0:  Camino de libre circulación del agente
+1. 1 - 4: Banderas colocadas a casillas no deseadas ( Disminuye la transparencia del obstáculo )
+1. \> 5: Obstáculo, el agente no es capaz de tomar la posición de la casilla donde se encuentre algún obstáculo 
 
 De esta manera, dentro de las funciones donde se toman decisiones sobre el recorrido, únicamente es necesario alterar el valor de la matriz y la función update se encargara de redibujar todo en base a las reglas anteriores
 
