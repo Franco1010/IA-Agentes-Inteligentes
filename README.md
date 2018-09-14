@@ -1,6 +1,6 @@
 # IA Agentes-Inteligentes
 
-<img width="823" alt="captura de pantalla 2018-09-14 a la s 17 19 09" src="https://user-images.githubusercontent.com/28017456/45577588-52b8df80-b842-11e8-9e1b-11aefa8057f8.png">
+<img width="500" alt="captura de pantalla 2018-09-14 a la s 17 19 09" src="https://user-images.githubusercontent.com/28017456/45577588-52b8df80-b842-11e8-9e1b-11aefa8057f8.png">
 
 ## Introducción
 
